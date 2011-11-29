@@ -1,9 +1,5 @@
 # do not show hidden files in the list
 set match-hidden-files off
-# auto complete ignoring case
-set show-all-if-ambiguous on
-set completion-ignore-case on
-
 set bell-style visible
 
 set mark-directories on
@@ -13,3 +9,6 @@ set mark-directories on
 "\e[A": history-search-backward
 "\e[B": history-search-forward
 
+
+set completion-ignore-case on
+set show-all-if-ambiguous on
